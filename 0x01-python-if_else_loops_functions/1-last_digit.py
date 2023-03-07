@@ -5,7 +5,7 @@ if number < 0:
   lastdigit = number % -10
 else:
   lastdigit = number% 10
-print("Last digit of  ", number, "  is  ",  lastdigit, end=' ')
+print("Last digit of", number, "is",  lastdigit, end=' ')
 
 if lastdigit > 5:
   print("and is greater than 5")
